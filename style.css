@@ -2,6 +2,7 @@ body {
  background: rgb(219, 218, 218);
  font-family: verdana;
  max-width: 900px;
+ min-width: 420px;
  margin: auto;
 }
 
@@ -53,19 +54,20 @@ body {
  text-align: center;
 }
 
-footer {
- display: flex;
- max-width: 650px;
- max-height: 200px;
- padding-bottom: 15px;
- margin: auto;
- flex-flow: row nowrap;
+ul {
+ display:flex;
+ padding: 0;
+ justify-content: space-around;
+ flex-wrap: wrap;
 }
 
 li {
- display: inline-flex;
- padding-top: 10px;
- padding-left: 5px;
+ list-style: none;
+ padding: 5px;
+}
+
+a {
+ color: black;
 }
 
 a:link, a:visited {
@@ -79,14 +81,4 @@ a:link, a:visited {
   
 a:hover, a:active {
  background-color: rgb(61, 61, 61);
-}
-
-.contact_list {
- list-style-type: none;
- padding-left: 15px;
- margin: 0;
-}
-
-.contact_list li a {
- color: black;
 }
