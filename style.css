@@ -55,7 +55,6 @@ body {
 
 footer {
  display: flex;
- border: 1px solid black;
  max-width: 650px;
  max-height: 200px;
  padding-bottom: 15px;
