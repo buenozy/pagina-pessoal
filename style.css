@@ -5,16 +5,11 @@ body {
  margin: auto;
 }
 
-.flex-container {
- display: flex;
-}
-
 .photo {
  border: 1px solid black;
  border-radius: 50px;
  margin-top: 5px;
  margin-bottom: 15px;
- margin-left: 20px;
  width: 100px;
 }
 
@@ -28,8 +23,6 @@ body {
 #title {
  font-size: 40px;
  text-transform: uppercase;
- padding-top: 30px;
- padding-left: 100px;
 }
 
 .post_title {
@@ -60,10 +53,20 @@ body {
  text-align: center;
 }
 
+footer {
+ display: flex;
+ border: 1px solid black;
+ max-width: 650px;
+ max-height: 200px;
+ padding-bottom: 15px;
+ margin: auto;
+ flex-flow: row nowrap;
+}
+
 li {
- display: inline-table;
+ display: inline-flex;
  padding-top: 10px;
- padding-left: 45px;
+ padding-left: 5px;
 }
 
 a:link, a:visited {
